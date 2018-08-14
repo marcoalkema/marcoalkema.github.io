@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <link href="./index.css" rel="stylesheet"></link>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header">
+      <a href="">
+        <img src="./heading.png">
+      </a>
+      <div class="btns">
+        <div class="home">
+          Home
+        </div>
+        <div class="mission">
+          Missie
+        </div>
+        <a href="http://tinyurl.com/marcocfc" target="blank">
+          <div class="cfPage">
+            Volg mijn voortgang!
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="headerImg">
+      <img src="./mp2.png">
+      <div class="headerText">
+        <h1>
+          SLOGAN HERE!
+        </h1>
+      </div>
+    </div>
+    <div class="main">
+      <h2>
+        Fijn dat je hier bent!
+      </h2>
+      <p class="mainText">
+        Fijn dat je me wilt helpen! Kijk bij missie als je meer wilt weten over waarom deze actie zo hard nodig is.
+      </p>
+    </div>
+    <div class="donate">
+      <p>
+        Hieronder kun je een bedrag naar keuze overmaken. Klik op het bedrag dat je wenst te doneren. Je wordt doorverwezen naar een Ideal betaalpagina waar je jouw bank kunt selecteren.
+      </p>
+      <div class="donateBtns">
+      <a href="">
+        <div class="donateButton">€10</div>
+      </a>
+      <a href="">
+        <div class="donateButton">€20</div>
+      </a>
+      <a href="">
+        <div class="donateButton">€35</div>
+      </a>
+      <a href="">
+        <div class="donateButton">€50</div>
+      </a>
+      <a href="">
+        <div class="donateButton">€100</div>
+      </a>
+      <a href="">
+        <div class="donateButton">€250</div>
+      </a>
+      <a href="">
+        <div class="donateButton">€350</div>
+      </a>
+      <a href="">
+        <div class="donateButton">€500</div>
+      </a>
+      </div>
+    </div>
+    <div class="footer"></div>
+    <script>
+     document.querySelector('.mission').onclick = function () {
+       document.querySelector('.main').innerHTML = '<h2>Missie</h2><p class="mainText">Hier mijn mission statement.</p>'
+     }
+     document.querySelector('.home').onclick = function () {
+       document.querySelector('.main').innerHTML = '<h2>Fijn dat je hier bent!</h2><p class="mainText">Hieronder kun je het bedrag van jouw keuze overmaken. Je kunt hiermee eenvoudig een donatie doen aan de goede zaak!.</br>Kijk bij missie als je meer wilt weten over waarom deze actie zo hard nodig is.</p>'
+     }
+    </script>
+  </body>
+</html>

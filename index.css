@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  color: white;
+  font-size: 5vw;
+  text-transform: uppercase;
+}
+.main {
+  text-align: center;
+}
+.btns {
+  position: absolute;
+  right: 80px;
+  top: 30%;
+}
+.header,
+.headerImg {
+  position: relative;
+  width: 100%;
+}
+.header {
+  margin-top: 20px;
+}
+.headerText {
+  position: absolute;
+  width: 100%;
+  top: 20%;
+  text-align: center;
+}
+.header img {
+  width: 50%;
+}
+.headerImg>img {
+  width: 100%;
+}
+.donateButton {
+  height: 50px;
+  line-height: 50px; /* same as height! */
+  width: 20%;
+  background: red;
+  color: white;
+  text-align: center;
+  margin: 2%;
+  display: inline-block;
+  font-size: 30px;
+  box-shadow: 2px 3px 5px #bbb;
+  border-radius: 5px;
+}
+.cfPage,
+.home,
+.mission {
+  background: #1C8BBA;
+  color: white;
+  height: 20px;
+  padding: 20px;
+  text-transform: uppercase;
+  box-shadow: 5px 5px 5px #bbb;
+  display: inline;
+  margin: 5px;
+}
+.footer {
+  height: 50px;
+  width: 100%;
+  background: #fff;
+}
+.mainText {
+  margin: 0 10%;
+  text-align: left;
+}
+.donate {
+  margin: 0 10%;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    /* For mobile phones: */
+  .donateButton {
+    width: 45%;
+  }
+}
