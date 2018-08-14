@@ -102,3 +102,7 @@ h2 {
   font-weight: 900;
   cursor: pointer;
 }
+.h2mission,
+.mainTextMission{
+  display: none;
+}
