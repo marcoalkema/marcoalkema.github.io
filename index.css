@@ -62,6 +62,7 @@ h1 {
   box-shadow: 5px 5px 5px #bbb;
   display: inline;
   margin: 5px;
+  cursor: pointer;
 }
 .footer {
   height: 50px;
@@ -81,4 +82,8 @@ h1 {
   .donateButton {
     width: 45%;
   }
+}
+.missionLink {
+  font-weight: 900;
+  cursor: pointer;
 }
